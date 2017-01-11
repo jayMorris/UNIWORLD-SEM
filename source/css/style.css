@@ -1,3 +1,54 @@
-/*
- * YOUR STYLES HERE
- */
+/* CUSTOM STYLES */
+/* COLORS */
+.uniworld-blue {
+  background: #00295b; }
+
+.uniworld-gray {
+  background: #b2b2b5; }
+
+.red-btn {
+  background: #8f1b2b; }
+
+.gray-btn {
+  background: #3e4144; }
+
+/*  FONT SECTION */
+.font-section {
+  font-size: 22px;
+  margin-bottom: 75px; }
+
+.ProximaNova-Regular {
+  font-family: ProximaNova-Regular; }
+
+.ProximaNova-RegularIt {
+  font-family: ProximaNova-RegularIt; }
+
+.ProximaNova-Bold {
+  font-family: ProximaNova-Bold; }
+
+.ProximaNova-BoldIt {
+  font-family: ProximaNova-BoldIt; }
+
+.ProximaNovaA-Regular {
+  font-family: ProximaNovaA-Regular; }
+
+.ProximaNovaA-Bold {
+  font-family: ProximaNovaA-Bold; }
+
+.ProximaNovaA-RegularIt {
+  font-family: ProximaNovaA-RegularIt; }
+
+.ProximaNovaA-BoldIt {
+  font-family: ProximaNovaS-BoldIt; }
+
+.ProximaNovaS-Regular {
+  font-family: ProximaNovaS-Regular; }
+
+.ProximaNovaS-Bold {
+  font-family: ProximaNovaS-Bold; }
+
+.ProximaNovaS-RegularIt {
+  font-family: ProximaNovaS-RegularIt; }
+
+.ProximaNovaS-BoldIt {
+  font-family: ProximaNovaS-BoldIt; }

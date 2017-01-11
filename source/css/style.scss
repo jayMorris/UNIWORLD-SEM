@@ -1,0 +1,133 @@
+// Extra Small Devices, Phones 
+@mixin bp-smaller {
+    @media only screen and (min-width: 480px) {
+        @content;
+    }
+}
+
+// Small Devices, Tablets 
+@mixin bp-small {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+// Medium Devices, Desktops 
+@mixin bp-medium {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+// Large Devices, Wide Screens 
+@mixin bp-large {
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+// COLORS
+
+$uniworld-blue: #00295b;
+$uniworld-gray: #b2b2b5;
+$online-button-red: #8f1b2b;
+$online-button-gray: #3e4144;
+
+// FONTS
+
+$sansRegular: ProximaNova-Regular;
+$sansBold: ProximaNova-Bold;
+$sansItalic: ProximaNova-RegularIt;
+$sansBoldItalic: ProximaNova-BoldIt;
+$sansAlt: ProximaNovaA-Regular;
+$sansAltBold: ProximaNovaA-Bold;
+$sansAltItalic: ProximaNovaA-RegularIt;
+$sansSmallCapsBoldItalic: ProximaNovaA-BoldIt;
+$sansSmallCaps: ProximaNovaS-Regular;
+$sansSmallCapsBold: ProximaNovaS-Bold;
+$sansSmallCapsItalic: ProximaNovaS-RegularIt;
+$sansSmallCapsBoldItalic: ProximaNovaS-BoldIt;
+$sansItalic: ProximaNova-RegularIt;
+$sansBold: ProximaNova-Bold;
+$sansAltBold: ProximaNovaA-Bold;
+$sansSmallCaps: ProximaNovaS-Regular;
+$serif: civita-lightregular;
+
+/* CUSTOM STYLES */
+
+
+/* COLORS */
+
+.uniworld-blue{
+    background: $uniworld-blue;
+}
+
+.uniworld-gray{
+    background: $uniworld-gray;
+}
+
+.red-btn{
+    background: $online-button-red;
+}
+
+.gray-btn{
+    background: $online-button-gray;
+}
+
+
+
+/*  FONT SECTION */
+
+.font-section {
+    font-size: 22px;
+    margin-bottom: 75px;
+}
+
+.ProximaNova-Regular {
+    font-family: $sansRegular;
+}
+
+.ProximaNova-RegularIt {
+    font-family: $sansItalic;
+}
+
+.ProximaNova-Bold {
+    font-family: $sansBold;
+}
+
+.ProximaNova-BoldIt {
+    font-family: $sansBoldItalic;
+}
+
+.ProximaNovaA-Regular {
+    font-family: $sansAlt;
+}
+
+.ProximaNovaA-Bold {
+    font-family: $sansAltBold;
+}
+
+.ProximaNovaA-RegularIt {
+    font-family: $sansAltItalic;
+}
+
+.ProximaNovaA-BoldIt {
+    font-family: $sansSmallCapsBoldItalic;
+}
+
+.ProximaNovaS-Regular {
+    font-family: $sansSmallCaps;
+}
+
+.ProximaNovaS-Bold {
+    font-family: $sansSmallCapsBold;
+}
+
+.ProximaNovaS-RegularIt {
+    font-family: $sansSmallCapsItalic;
+}
+
+.ProximaNovaS-BoldIt {
+    font-family: $sansSmallCapsBoldItalic
+}
+
