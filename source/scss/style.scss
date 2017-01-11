@@ -29,6 +29,8 @@
 // COLORS
 
 $uniworld-blue: #00295b;
+$uniworld-blue-accent-a: #4C698C;
+$uniworld-blue-accent-b: #B2BECD;
 $uniworld-gray: #b2b2b5;
 $online-button-red: #8f1b2b;
 $online-button-gray: #3e4144;
@@ -60,6 +62,14 @@ $serif: civita-lightregular;
 
 .uniworld-blue{
     background: $uniworld-blue;
+}
+
+.uniworld-blue-accent-a{
+    background: $uniworld-blue-accent-a;
+}
+
+.uniworld-blue-accent-b{
+    background: $uniworld-blue-accent-b;
 }
 
 .uniworld-gray{
